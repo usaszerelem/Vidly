@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-class MoviesConfig(AppConfig):
+class ApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'movies'
+    name = 'api'
